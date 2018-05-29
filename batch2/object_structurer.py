@@ -40,3 +40,6 @@ df = pd.concat(dict_of_df)
 
 # Give the user a sample of the dataFrame
 print(df[0:50])
+
+# Print out a csv of the dataFrame
+df.to_csv('~/Documents/mb_struct.csv')
